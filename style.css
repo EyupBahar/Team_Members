@@ -1,0 +1,27 @@
+body, html{
+    height: 100%;
+    position:relative;
+}
+#main-container{
+    width:90%;
+    margin-top:1rem;
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+img{
+    height:20rem;
+    width:50%;
+    border-radius: 15px;
+}
+
+#header{
+    display:flex;
+    justify-content:space-around;
+}
+#mid {
+    margin-top:50px;
+}
